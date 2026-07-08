@@ -20,7 +20,7 @@ export default function ResumeSection() {
             aria-label="Manan Badala's resume"
           >
             <p className="p-6 text-center text-sm text-muted">
-              Your browser can't preview PDFs inline.{" "}
+              Your browser can&apos;t preview PDFs inlin{" "}
               <a href={profile.resumeFile} className="text-cyan underline">
                 Open the resume directly
               </a>

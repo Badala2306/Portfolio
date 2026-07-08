@@ -59,7 +59,7 @@ export default function Contact() {
       <div className="mx-auto max-w-5xl">
         <p className="section-eyebrow">08 — Contact</p>
         <h2 className="mt-3 font-display text-3xl font-semibold sm:text-4xl">
-          Let's talk data
+         Let&apos;s talk data
         </h2>
         <p className="mt-3 max-w-xl text-sm text-muted">
           Open to Data Analytics, Business Analysis, and BI internships. Messages sent below
@@ -127,7 +127,7 @@ export default function Contact() {
 
             {status === "sent" && (
               <p className="flex items-center gap-2 font-mono text-xs text-cyan">
-                <CheckCircle2 size={14} /> Message sent — I'll get back to you soon.
+                <CheckCircle2 size={14} /> Message sent — I&apos;ll get back to you soon.
               </p>
             )}
             {status === "error" && (
@@ -138,8 +138,8 @@ export default function Contact() {
             )}
             {!accessKey && (
               <p className="font-mono text-[11px] text-muted">
-                Form relay isn't configured yet — submitting will open your mail client
-                instead. See README "Wiring up Contact".
+                Form relay isn&apos;t configured yet — submitting will open your mail client
+               instead. See README &quot;Wiring up Contact&quot;.
               </p>
             )}
           </motion.form>

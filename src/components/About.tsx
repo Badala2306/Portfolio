@@ -21,22 +21,22 @@ export default function About() {
             className="space-y-4 text-[15px] leading-relaxed text-muted"
           >
             <p>
-              I'm an Electronics and Computer Engineering student at Thapar Institute of
+             I&apos;m an Electronics and Computer Engineering student at Thapar Institute of
               Engineering and Technology, but the work I keep coming back to is analytics:
               framing a business question, writing the SQL to answer it, and shaping the
               result into something a stakeholder can act on in under a minute.
             </p>
             <p>
               My core strength is SQL and Excel — multi-table joins, CTEs, window functions,
-              PivotTables, and Power Query all show up across my projects because they're the
-              tools I reach for first. I'm extending that into Power BI and Python, using both
+              PivotTables, and Power Query all show up across my projects because they&apos;re the
+              tools I reach for first. I&apos;m extending that into Power BI and Python, using both
               in live dashboard and automation work rather than treating them as boxes to tick.
             </p>
             <p>
               What I enjoy most is the middle step most people skip: cleaning the data properly
               before visualizing it. Every dashboard on this site started as a messy export with
               nulls, duplicates, or inconsistent formatting — the interesting part is making it
-              trustworthy before it's pretty.
+              trustworthy before it&apos;s pretty.
             </p>
           </motion.div>
 
