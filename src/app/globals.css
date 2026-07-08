@@ -1,0 +1,79 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  scroll-behavior: smooth;
+}
+
+html {
+  scroll-padding-top: 80px;
+}
+
+body {
+  background-color: #0a0e14;
+  color: #e7ebf3;
+}
+
+/* Visible keyboard focus everywhere */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+textarea:focus-visible {
+  outline: 2px solid #22d3ee;
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+/* Reduced motion respected */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+.glass {
+  background: rgba(15, 21, 33, 0.55);
+  border: 1px solid rgba(255, 255, 255, 0.07);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+}
+
+.text-gradient {
+  background: linear-gradient(90deg, #22d3ee, #67e8f9 40%, #f5a524 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.section-eyebrow {
+  font-family: var(--font-jetbrains), monospace;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  font-size: 0.72rem;
+  color: #22d3ee;
+}
+
+.grain {
+  background-image: radial-gradient(rgba(255, 255, 255, 0.035) 1px, transparent 1px);
+  background-size: 3px 3px;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #0a0e14;
+}
+::-webkit-scrollbar-thumb {
+  background: #1f2937;
+  border-radius: 8px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #22d3ee55;
+}
